@@ -1,0 +1,14 @@
+$headline: 'equipcondensedlight';
+$body: verdana, arial, helvetica, sans-serif;
+
+*{
+  font-family: $body;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: $headline;
+  font-size: 50px;
+  line-height: 65px;
+}

@@ -1,0 +1,20 @@
+/*
+Theme Name: Signal38
+Theme URI: http://github.com/alternatekev/signal38
+Author: Kevin Conboy
+Author URI: http://alternate.org
+Description: This is a re-imagining of the 37signas.com website, circa ~2003–2005
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import "colors";
+@import "type";
+@import "layout";
+
+$fx: all 100ms ease-out;
+
+@import "../../views/top-nav/style";

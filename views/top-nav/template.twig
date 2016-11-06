@@ -1,0 +1,10 @@
+<ul class="primary-nav">
+  {% for item in primary_top_nav.get_items %}
+    <li{% if item.current %} class="selected"{% endif %}><a href="{{item.get_link}}">{{item.title}}</a></li>
+  {% endfor %}
+</ul>
+<ul class="secondary-nav">
+  {% for item in secondary_top_nav.get_items %}
+    <li{% if item.current %} class="selected"{% endif %}><a href="{{item.get_link}}">{{item.title}}</a></li>
+  {% endfor %}
+</ul>

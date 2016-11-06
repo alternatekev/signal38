@@ -1,0 +1,22 @@
+<!-- HTML HEADER -->
+{% block html_head %}
+  {% include 'head.twig' %}
+	{% block head %}
+	{% endblock %}
+	</head>
+{% endblock %}
+
+<!-- PAGE CONTENT -->
+<div class="page-container">
+
+  <!-- TOP PRIMARY & SECONDARY NAVIGATION // LOGO -->
+  <div class="top-nav-container">
+    {% include 'top-nav/template.twig' %}
+  </div>
+
+</div>
+
+<!-- HTML FOOTER -->
+{% block html_foot %}
+  {% include 'foot.twig' %}
+{% endblock %}

@@ -1,0 +1,77 @@
+/*
+Theme Name: Signal38
+Theme URI: http://github.com/alternatekev/signal38
+Author: Kevin Conboy
+Author URI: http://alternate.org
+Description: This is a re-imagining of the 37signas.com website, circa ~2003–2005
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+* {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+h1 {
+  font-family: 'equipcondensedlight';
+  font-size: 50px;
+  line-height: 65px;
+}
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+.page-container {
+  margin: 20px auto;
+  text-align: left;
+  width: 75%;
+  max-width: 1200px;
+}
+.top-nav-container ul.primary-nav, .top-nav-container ul.secondary-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.top-nav-container ul.primary-nav li, .top-nav-container ul.secondary-nav li {
+  display: inline-block;
+  padding: 0;
+  margin-left: 0px;
+}
+.top-nav-container ul.primary-nav li:first-of-type, .top-nav-container ul.secondary-nav li:first-of-type {
+  margin-left: 0px;
+}
+.top-nav-container ul.primary-nav li:after, .top-nav-container ul.secondary-nav li:after {
+  display: inline-block;
+  content: '|';
+  font-size: 12.5px;
+  margin-left: 5px;
+}
+.top-nav-container ul.primary-nav li a, .top-nav-container ul.secondary-nav li a {
+  transition: all 100ms ease-out;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+}
+.top-nav-container ul.primary-nav li a:hover, .top-nav-container ul.secondary-nav li a:hover {
+  background: #000;
+  color: #fff;
+}
+.top-nav-container ul.primary-nav li.selected a, .top-nav-container ul.secondary-nav li.selected a {
+  color: #600;
+  text-decoration: none;
+}
+.top-nav-container ul.primary-nav li.selected a:hover, .top-nav-container ul.secondary-nav li.selected a:hover {
+  background: transparent;
+}
+.top-nav-container ul.secondary-nav li:last-of-type:after {
+  content: '';
+}
+.top-nav-container ul.secondary-nav li a {
+  font-size: 12.5px;
+  font-weight: normal;
+}
